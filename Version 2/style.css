@@ -1,0 +1,78 @@
+#button.clicked {
+    opacity: 0;
+}
+
+#button {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+table.td {}
+
+
+img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+
+}
+
+img#bauer {
+    transition: left 1s ease-in-out;
+    top: 15px;
+    left: 50px;
+    z-index: 3;
+}
+
+img#wolf {
+    transition: left 1s ease-in-out;
+    top: 115px;
+    left: 50px;
+    z-index: 2;
+}
+
+img#kohl {
+    transition: left 1s ease-in-out;
+    height: auto;
+    top: 215px;
+    left: 50px;
+    z-index: 2;
+}
+
+img#schaf {
+    transition: left 1s ease-in-out;
+    top: 315px;
+    left: 50px;
+    z-index: 2px;
+}
+
+img#fluss {
+    top: -2500px;
+    left: 100px;
+    transform: rotate(90deg) scale(1.4) scaleX(3);
+    width: 400px;
+    height: 6000px;
+    z-index: -999;
+    background-image: none;
+}
+
+img#bauer.rgt {
+    top: 15px;
+    left: 400px
+}
+
+img#wolf.rgt {
+    top: 115px;
+    left: 400px
+}
+
+img#kohl.rgt {
+    top: 215px;
+    left: 400px
+}
+
+img#schaf.rgt {
+    top: 315px;
+    left: 400px
+}

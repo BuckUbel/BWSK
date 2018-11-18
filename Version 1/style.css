@@ -1,0 +1,18 @@
+#button.clicked {
+    opacity: 0;
+}
+
+#button {
+
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+table.td {
+    
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}

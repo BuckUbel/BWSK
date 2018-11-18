@@ -1,0 +1,163 @@
+body{
+    overflow: hidden;
+    background-color: #007F0e
+}
+
+button.clicked {
+    opacity: 0;
+}
+
+button {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+table.td {}
+
+
+img,
+div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+
+}
+
+
+
+
+
+img#fluss {
+    top: -2500px;
+    left: 100px;
+    transform: rotate(90deg) scale(1.4) scaleX(3);
+    width: 400px;
+    height: 6000px;
+    z-index: -999;
+    background-image: none;
+}
+img#background {
+    top: 0px;
+    left: 0px;
+    width: 2000px;
+    height: 2000px;
+    position: fixed;
+    z-index: -999;
+    background-image: none;
+}
+
+
+
+
+
+img#floss {
+    z-index: 0;
+    width: 125px;
+    height: 125px;
+    top: 0px;
+    left: 0px;
+}
+
+img#bauer {
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+
+div#bauerF {
+    top: 15px;
+    left: 740px;
+    transition: left 0.5s ease-in-out, top 0.5s ease-in-out;
+    z-index: 0;
+}
+div#bauerF.rgt.bauerrgt {
+    top: 15px;
+    left: 740px !important;
+}
+.bauerrgt{
+    top: 15px !important;
+    left: 940px !important;
+}
+
+
+
+
+
+img#wolf {
+    transition: left 0.5s ease-in-out;
+    top: 135px !important;
+    left: 650px !important;
+    z-index: 2;
+}
+img#wolf.rgt {
+    top: 135px !important;
+    left: 1050px !important;
+}
+.wolf {
+    top: 135px !important;
+    left: 680px !important;
+}
+.wolfrgt {
+    top: 135px !important;
+    left: 940px !important;
+}
+
+
+
+img#kohl {
+    transition: left 0.5s ease-in-out, transform 0.5s ease-in-out;
+    height: auto;
+    transform: rotate(0deg);
+    top: 235px !important;
+    left: 650px !important;
+    z-index: 2;
+}
+img#kohl.rgt {
+    top: 235px !important;
+    left: 1000px !important;
+    transform: rotate(360deg);
+}
+.kohl {
+    top: 235px !important;
+    left: 650px !important;
+}
+.kohlrgt {
+    top: 235px !important;
+    left: 880px !important;
+}
+
+
+
+img#schaf {
+    transition: left 0.5s ease-in-out;
+    top: 335px !important;
+    left: 650px !important;
+    z-index: 2px;
+}
+img#schaf.rgt {
+    top: 335px !important;
+    left: 1000px !important;
+}
+.schaf {
+    top: 335px !important;
+    left: 650px !important;
+}
+.schafrgt {
+    top: 335px !important;
+    left: 900px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
